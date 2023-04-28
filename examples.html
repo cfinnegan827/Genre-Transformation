@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Genre Transformation Project</title>
+</head>
+<body>
+  <div class="navbar">
+    <h1>Technological impacts on society</h1>
+    <a href="index.html">Home</a>
+    <a href="ethics.html">Ethics</a>
+    <a href="history.html">Family</a>
+    <div class="dropdown">
+      <button class="dropbtn">Addiction
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="about.html">About</a>
+        <a href="examples.html">Examples</a>
+      </div>
+    </div>
+    <div class="why"><a href="why.html">Why a Website?</a></div>
+  </div>
+
+    <div class="game">
+    <h1>Higher or Lower Game</h1>
+    <p>Streak: <span id="streak">0</span></p>
+    <p>Errors: <span id="error">0</span></p>
+    <img id="card-image" src="https://deckofcardsapi.com/static/img/AC.png" alt="Card image">
+    <div class="conatiner">
+      <button id="start-button">Start Game</button>
+      <button id="higher-button" disabled>Higher</button>
+      <button id="lower-button" disabled>Lower</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
